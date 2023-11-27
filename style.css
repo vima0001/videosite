@@ -1,0 +1,106 @@
+* {
+  all: unset;
+  display: unset;
+  cursor: unset;
+  padding-top: unset;
+  justify-content: unset;
+  box-sizing: unset;
+  column-gap: unset;
+  row-gap: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "lilita_one";
+  src: url(fonte/lilita/lilitaone-regular-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+nav {
+  margin: 30px;
+  font-size: x-large;
+  font-family: "lilita_one";
+  color: #425bdb;
+}
+main {
+  margin: 30px;
+}
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  padding-bottom: 40px;
+}
+.col_1_1 {
+  height: fit-content;
+  border-radius: 20px;
+}
+.col_1_2 {
+  background-color: rgb(241, 237, 228);
+  border-radius: 20px;
+}
+.col_1_2_txt {
+  text-align: center;
+  color: #be7c2a;
+  font-size: 90%;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2rem;
+}
+.iframe {
+  padding-top: 5rem;
+  border-radius: 20px;
+}
+.grid_2_1 {
+  font-family: "lilita_one";
+  color: #425bdb;
+}
+.grid_3_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding-bottom: 40px;
+}
+.col_3_1 {
+  height: fit-content;
+  border-radius: 20px;
+}
+.col_3_1 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.col_3_2 {
+  height: fit-content;
+  border-radius: 20px;
+}
+.col_3_2 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.grid_4_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  padding-bottom: 40px;
+}
+.grid_4_1 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.footer_tekst {
+  color: #425bdb;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: "lilita_one";
+}
+video {
+  width: 100%;
+  border-radius: 20px;
+}
